@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/obras-1920.webp") no-repeat center center;
+  background: #fff url("./img/obras1920.webp") no-repeat center center;
 }
 
 .back-to-top {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url('https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/obras-1920.webp') top center;
+    background: url('./img/obras1920.webp') top center;
     background-size: cover;
   }
   

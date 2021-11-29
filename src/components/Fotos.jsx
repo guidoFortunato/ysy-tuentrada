@@ -1,4 +1,13 @@
 import React from 'react'
+import portfolio1 from '../img/portfolio1.webp'
+import portfolio2 from '../img/portfolio2.webp'
+import portfolio3 from '../img/portfolio3.webp'
+import portfolio4 from '../img/portfolio4.webp'
+import portfolio5 from '../img/portfolio5.webp'
+import portfolio6 from '../img/portfolio6.webp'
+import portfolio7 from '../img/portfolio7.webp'
+import portfolio8 from '../img/portfolio8.webp'
+import portfolio9 from '../img/portfolio9.webp'
 
 const Fotos = () => {
     return (
@@ -19,78 +28,46 @@ const Fotos = () => {
                     <div className="row portfolio-container">
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-1.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
+                            <img src={portfolio1} className="img-fluid" alt="obras" />
                             
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-1.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
+                        </div>
+
+                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <img src={portfolio2} className="img-fluid" alt="obras" />
                             
-                            </div>
                         </div>
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-2.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-2.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio3} className="img-fluid" alt="obras" />
+                            
                         </div>
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-3.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-3.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio4} className="img-fluid" alt="obras" />
+                            
                         </div>
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-4.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-4.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio5} className="img-fluid" alt="obras" />
+                            
                         </div>
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-5.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-5.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-6.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-6.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio6} className="img-fluid" alt="obras" />
+                            
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-7.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-7.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio7} className="img-fluid" alt="obras" />
+                            
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras3.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras3.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
+                            <img src={portfolio8} className="img-fluid" alt="obras" />
+                            
                         </div>
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras2.webp" className="img-fluid" alt="obras" />
-                            <div className="portfolio-info">
-                                <a href="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras2.webp" data-gall="portfolioGallery" className="venobox preview-link"><i className="fa fa-plus"></i></a>
-                        
-                            </div>
-                        </div>
-
-                    
-
-                    
+                            <img src={portfolio9} className="img-fluid" alt="obras" />
+                            
+                        </div>    
 
                     </div>
 

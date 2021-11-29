@@ -1,4 +1,5 @@
 import React from 'react'
+import obras5 from '../img/obras5.webp'
 
 const SectionHistoria = () => {
     return (
@@ -21,7 +22,7 @@ const SectionHistoria = () => {
                         <div className="row">
 
                             <div className="col-12 col-lg-6 about-img mb-2 mb-lg-0">
-                                <img src="https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras5.webp" alt="obras el templo del rock" />
+                                <img src={obras5} alt="obras el templo del rock" />
                             </div>
 
                             <div className="col-12 col-lg-6 about-content">
