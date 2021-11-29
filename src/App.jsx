@@ -31,7 +31,7 @@ function App() {
     <VariablesProvider>
 
       <Router basename={'/estadio/obras'}> 
-      {/* basename={'/estadio/obras'} */}
+      
 
         <Switch>
           <Route path='/:name' exact >

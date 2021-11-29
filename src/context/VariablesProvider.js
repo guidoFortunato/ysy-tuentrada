@@ -1,4 +1,15 @@
 import React from 'react'
+import portfolio1 from '../img/portfolio1.webp'
+import portfolio2 from '../img/portfolio2.webp'
+import portfolio3 from '../img/portfolio3.webp'
+import portfolio4 from '../img/portfolio4.webp'
+import portfolio5 from '../img/portfolio5.webp'
+import portfolio6 from '../img/portfolio6.webp'
+import portfolio7 from '../img/portfolio7.webp'
+import portfolio8 from '../img/portfolio8.webp'
+import portfolio9 from '../img/portfolio9.webp'
+import logo from '../img/logo.png'
+import obras5 from '../img/obras5.webp'
 
 export const VariablesContext = React.createContext()
 // export const VariablesContext = React.createContext({
@@ -16,7 +27,7 @@ const VariablesProvider = (props) => {
         mailTo: 'mailto:consultas@foh-sa.com',
         mail: 'consultas@foh-sa.com',
         iframeAlt: 'mapa obras',
-        logo: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/logo.png",
+        logo: logo,
         altLogo: "logo obras",
         venueName: 'Estadio Obras',
         tuentradaName: 'tuentrada.com',
@@ -27,15 +38,15 @@ const VariablesProvider = (props) => {
         volver: 'Volver',
         tituloEventos: 'PRÓXIMOS SHOWS',
         tituloImagenes: 'VIVÍ OBRAS',
-        portfolioImg1: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-1.webp",
-        portfolioImg2: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-2.webp",
-        portfolioImg3: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-3.webp",
-        portfolioImg4: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-4.webp",
-        portfolioImg5: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-5.webp",
-        portfolioImg6: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-6.webp",
-        portfolioImg7: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/portfolio-7.webp",
-        portfolioImg8: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras3.webp",
-        portfolioImg9: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras2.webp",
+        portfolioImg1: portfolio1,
+        portfolioImg2: portfolio2,
+        portfolioImg3: portfolio3,
+        portfolioImg4: portfolio4,
+        portfolioImg5: portfolio5,
+        portfolioImg6: portfolio6,
+        portfolioImg7: portfolio7,
+        portfolioImg8: portfolio8,
+        portfolioImg9: portfolio9,
         elementoNavbar1: 'Shows',
         elementoNavbar2: 'Historia',
         elementoNavbar3: 'Obras',
@@ -44,7 +55,7 @@ const VariablesProvider = (props) => {
         botonInicio: 'SHOWS',
         tituloHistoriaArriba: '40 AÑOS DE HISTORIA',
         tituloHistoriaAbajo: 'DEL TEMPLO DEL ROCK',
-        imagenHistoria: "https://bucket-tue.obs.la-south-2.myhuaweicloud.com/newsletters/EstadioOBRAS/OBRASnew/assets/img/portfolio/obras5.webp",
+        imagenHistoria: obras5,
         descripcion1: 'El estadio Obras Sanitarias, desde 1978 alberga a más 6.000 bandas y solistas argentinos e internacionales, con una capacidad de 4.700 espectadores. El logro de poder presentarse en el escenario de Obras para los artistas nacionales de cualquier género es sinónimo de consagración, es un antes y un después en la vida artística. Los años han demostrado que hay un sentimiento que con el paso del tiempo se intensifica y que no pierde nunca esa mística.',
         descripcion2: 'Las huellas de artistas y momentos que marcaron un antes y un después en un lugar emblema para Argentina. Presentaciones en vivo que terminaron siendo historias únicas, una de ellas fue en 1994 durante el show de B.B. King, cuando invitó a Pappo al escenario. Sin ir más lejos, este año Ciro Pertusi volvió a cantar con Attaque 77 y recientemente Ozzy Osbourne se despidió de Latinoamérica con su tour "No More Tours II".'
         
