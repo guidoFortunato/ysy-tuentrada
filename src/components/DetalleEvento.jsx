@@ -30,7 +30,6 @@ const DetalleEvento = (props) => {
                 })
                 const res = await data.json()
                 console.log(res)
-                //console.log(res[0].title)
                 
                 setEventos(res)
 
@@ -100,7 +99,7 @@ const DetalleEvento = (props) => {
                         </div>
                     
                     
-                    </div>
+                    </div>  
 
                 </div>
             </div>
