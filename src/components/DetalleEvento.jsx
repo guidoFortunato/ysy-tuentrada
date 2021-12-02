@@ -2,36 +2,30 @@ import React from 'react'
 import { withRouter } from 'react-router'
 import { useParams } from "react-router-dom"
 import {VariablesContext} from '../context/VariablesProvider'
+import { Get } from './services/privateApiService'
 
 const DetalleEvento = (props) => {
 
     const [eventos, setEventos] = React.useState([])
 
+
+
     const {variables} = React.useContext(VariablesContext)
 
-    const {name} = useParams()
-    console.log(name)
 
-    React.useEffect(()=>{
+
+    const {name} = useParams()
+    
+
+    React.useEffect(()=>{        
 
         const getData = async ()=>{
-            const url = 'https://api.tuentrada.com/api/venue?venue=obras'
-            
+            const url = 'https://api.tuentrada.com/api/venue?venue=obras' 
 
             try {
-                const data = await fetch(url, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer 3|ruU31fAttxU0FKWmvV8pdB1GCyhQa7lNAQwBfEVb'
-                    }
-                    
-                    
-                })
-                const res = await data.json()
-                console.log(res)
-                
-                setEventos(res)
+
+                const response = await Get(url)               
+                setEventos(response)
 
 
             } catch (error) {

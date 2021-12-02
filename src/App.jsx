@@ -16,6 +16,7 @@ import Eventos from './components/Eventos';
 import DetalleEvento from './components/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
 import TagManager from 'react-gtm-module';
+import Error404 from './components/auth/Error404';
 
 const TagManagerArgs = {
   gtmId: 'GTM-N2N9W5J'
@@ -34,10 +35,6 @@ function App() {
       
 
         <Switch>
-          <Route path='/:name' exact >
-            <DetalleEvento />            
-          </Route>       
-
           <Route path='/' exact>
             <Navbar/>
             <Section />         
@@ -48,6 +45,13 @@ function App() {
             {/* <BotonFlotante/> */}
             <Footer />
           </Route> 
+
+          <Route path='/:name' exact >
+            <DetalleEvento />            
+          </Route>       
+
+
+          <Route path='*' component={Error404} />
         
         </Switch>
       </Router>
