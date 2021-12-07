@@ -17,6 +17,7 @@ import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
 import TagManager from 'react-gtm-module';
 import Error404 from './components/auth/Error404';
+import Adsense from './components/adsense/Adsense';
 
 const TagManagerArgs = {
   gtmId: 'GTM-N2N9W5J'
@@ -44,10 +45,12 @@ function App() {
             <Contacto />
             {/* <BotonFlotante/> */}
             <Footer />
+            <Adsense /> 
           </Route> 
 
           <Route path='/:name' exact >
-            <DetalleEvento />            
+            <DetalleEvento />
+            <Adsense /> 
           </Route>       
 
 
