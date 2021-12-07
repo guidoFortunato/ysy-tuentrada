@@ -5,6 +5,9 @@ import { useParams } from "react-router-dom"
 import { Get } from '../services/privateApiService'
 import rapsodia from '../../img/rapsodia.jpg'
 import { VariablesContext } from '../../context/VariablesProvider'
+import Adsense from 'react-adsense'
+import AdComponent from '../adsense/AdComponent'
+
 
 const DetalleEvento = (props) => {
 
@@ -116,7 +119,7 @@ const DetalleEvento = (props) => {
                     </div>
                     
                             
-
+                    <AdComponent />
                         
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Section from './components/main/Section';
 import SectionHistoria from './components/main/SectionHistoria';
 import Imagenes from './components/main/Imagenes';
@@ -17,17 +17,27 @@ import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
 import TagManager from 'react-gtm-module';
 import Error404 from './components/auth/Error404';
-import Adsense from './components/adsense/Adsense';
+
 
 const TagManagerArgs = {
   gtmId: 'GTM-N2N9W5J'
 }
 
-TagManager.initialize(TagManagerArgs)
 
 
 
 function App() {
+  
+  useEffect(() => {
+    
+    TagManager.initialize(TagManagerArgs)
+    
+  }, [])
+
+
+
+
+
   return (
     <>
     <VariablesProvider>
@@ -44,13 +54,11 @@ function App() {
             <Imagenes />
             <Contacto />
             {/* <BotonFlotante/> */}
-            <Footer />
-            <Adsense /> 
+            <Footer />           
           </Route> 
 
           <Route path='/:name' exact >
-            <DetalleEvento />
-            <Adsense /> 
+            <DetalleEvento />            
           </Route>       
 
 
