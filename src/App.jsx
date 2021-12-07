@@ -1,19 +1,19 @@
 import React from 'react';
-import Section from './components/Section';
-import SectionHistoria from './components/SectionHistoria';
-import Imagenes from './components/Imagenes';
-import Contacto from './components/Contacto';
-import Footer from './components/Footer';
+import Section from './components/main/Section';
+import SectionHistoria from './components/main/SectionHistoria';
+import Imagenes from './components/main/Imagenes';
+import Contacto from './components/main/Contacto';
+import Footer from './components/footer/Footer';
 import {
     BrowserRouter as Router,
     Route,
     Switch
   
   } from "react-router-dom";
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 //import BotonFlotante from './components/BotonFlotante';
-import Eventos from './components/Eventos';
-import DetalleEvento from './components/DetalleEvento';
+import Eventos from './components/main/Eventos';
+import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
 import TagManager from 'react-gtm-module';
 import Error404 from './components/auth/Error404';

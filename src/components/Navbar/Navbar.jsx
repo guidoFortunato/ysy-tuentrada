@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router} from "react-router-dom";
 import { Link } from "react-scroll";
-import {VariablesContext} from '../context/VariablesProvider'
+import { VariablesContext } from '../../context/VariablesProvider'
 
 const Navbar = () => {
 

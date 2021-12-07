@@ -1,8 +1,8 @@
 import React from 'react'
 //import { withRouter } from 'react-router'
 import { Link } from "react-router-dom";
-import {VariablesContext} from '../context/VariablesProvider'
-import { Get } from './services/privateApiService';
+import { VariablesContext } from '../../context/VariablesProvider'
+import { Get } from '../services/privateApiService';
 
 
 const Eventos = (props) => {

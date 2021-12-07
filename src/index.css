@@ -1486,7 +1486,7 @@ h1, h2, h3, h4, h5, h6 {
   --------------------------------------------------------------*/
   #footer {
     background: #111;
-    padding: 30px 0;
+    padding: 5px 0;
     color: #fff;
   }
   
@@ -1508,6 +1508,19 @@ h1, h2, h3, h4, h5, h6 {
   
   footer a:hover{
     color: #ffcf11;
+  }
+
+
+  .footer-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  #footer p{
+    margin: 0 0 15px 0;
   }
 
     @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1580,6 +1593,93 @@ h1, h2, h3, h4, h5, h6 {
     }
     
   }
+
+
+  /**************** detalle evento*******************/
+
+
+  /* imagen */
+
+  .img-evento{
+    width: 100%;
+  }
+
+  /*tamaño datos*/
+  .size-datos{
+    font-size: 20px;
+  }
+
+  .container-button{
+    display: flex;
+    justify-content: center;
+  }
+  .boton{
+    width: 50%;
+  }
+
+
+  @media (max-width: 991px) {
+    .img-evento{
+      width: 100%;
+    }
+    .footer-bottom{
+      position: relative;
+    }
+    .container-button{
+      display: flex;
+      justify-content: center;
+    }
+    .boton{
+      width: 75%;
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+    
+  }
+
+
+
+  
+
+  @media (max-width: 767px) {
+    .img-evento{
+      width: 100%;
+    }    
+  }
+
+  /* titulo */
+
+  .titulo-evento-detalle{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+  /* datos detalle evento */
+
+  .fecha-hora-detalle{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+
+ 
+
+  
+
+
+  
+
+  
+
+
+ 
+
+
+
+
+  /*****************************************************/
 
  
 
