@@ -16,7 +16,9 @@ const Navbar = () => {
             {/* <nav className={scrollNav > 0 ? "navbar navbar-expand-lg navbar-dark bg-dark fixed-top" : "navbar navbar-expand-lg navbar-dark fixed-top"}> */}
             <nav data-toggle="collapse" className="navbar navbar-expand-lg navbar-dark navbar-active fixed-top">
                 <div className="container">
-                    <img src={variables.logo} style={{width: '125px', height: '40px'}} alt={variables.altLogo} />
+                    <Link to='/'>
+                        <img src={variables.logo} style={{width: '125px', height: '40px'}} alt={variables.altLogo} />
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>

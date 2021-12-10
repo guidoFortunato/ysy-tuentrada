@@ -57,12 +57,12 @@ function App() {
             <Footer />           
           </Route> 
 
-          <Route path='/:name' exact >
+          <Route path='/:id' exact >
             <DetalleEvento />            
           </Route>       
 
 
-          <Route path='*' component={Error404} />
+          {/* <Route path='*' component={Error404} /> */}
         
         </Switch>
       </Router>

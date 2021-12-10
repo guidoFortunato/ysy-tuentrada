@@ -1,12 +1,11 @@
 import React from 'react'
 import { withRouter } from 'react-router'
 import { useParams } from "react-router-dom"
-//import {VariablesContext} from '../../context/VariablesProvider'
 import { Get } from '../services/privateApiService'
 import rapsodia from '../../img/rapsodia.jpg'
 import { VariablesContext } from '../../context/VariablesProvider'
-import Adsense from 'react-adsense'
-import AdComponent from '../adsense/AdComponent'
+import AdSense from 'react-adsense'
+
 
 
 const DetalleEvento = (props) => {
@@ -19,13 +18,15 @@ const DetalleEvento = (props) => {
 
 
 
-    const {name} = useParams()
+    const {id} = useParams()
     
 
-    React.useEffect(()=>{        
+    React.useEffect(()=>{
+        
+        // (window.adsbygoogle = window.adsbygoogle || []).push({});
 
         const getData = async ()=>{
-            const url = 'https://api.tuentrada.com/api/venue?venue=obras' 
+            const url = process.env.REACT_APP_API_OBRAS 
 
             try {
 
@@ -116,10 +117,25 @@ const DetalleEvento = (props) => {
                             </button>
                         </div>
                         
+                        <AdSense.Google 
+                            client='ca-pub-3241865431125040' 
+                            slot='8290866443' 
+                            style={{ display: 'block',height: 250, width: 300}} 
+                            format='auto' 
+                            responsive='true'
+                            layoutKey='-h6+2+12-4l+5y'
+                         /> 
+
+                         <ins
+                                className="adsbygoogle"
+                                data-ad-client="ca-pub-3241865431125040"
+                                data-ad-slot="8290866443"
+                                style={{ display: "inline-block", height: 250, width: 300 }}
+                            />
+                        
                     </div>
                     
                             
-                    <AdComponent />
                         
                 </div>
             </div>

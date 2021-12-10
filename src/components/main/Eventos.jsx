@@ -1,5 +1,4 @@
 import React from 'react'
-//import { withRouter } from 'react-router'
 import { Link } from "react-router-dom";
 import { VariablesContext } from '../../context/VariablesProvider'
 import { Get } from '../services/privateApiService';
@@ -9,7 +8,6 @@ const Eventos = (props) => {
 
     const [eventos, setEventos] = React.useState([])
     const {variables} = React.useContext(VariablesContext)
-    //const [ids, setIds] = React.useState([])
 
 
 
@@ -17,12 +15,12 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = 'https://api.tuentrada.com/api/venue?venue=obras'    
+            const url = process.env.REACT_APP_API_OBRAS    
 
             try {
 
                 const response = await Get(url)               
-                setEventos(response)         
+                setEventos(response)       
 
             } catch (error) {
                 console.log(error)
@@ -33,17 +31,6 @@ const Eventos = (props) => {
         getData()
     }, [])
 
-    // const rellenarIds = ()=>{
-    //     for (let i = 0; i < eventos.length; i++) {
-    //         console.log(eventos[i].id.length)
-            
-               
-            
-                                
-    //     }
-
-    // }
-    // rellenarIds()
 
     return (
         
@@ -83,7 +70,7 @@ const Eventos = (props) => {
                                                     <span className='ms-1'>{item.time} hs</span>
                                                 </div>
                                                 <Link
-                                                    to={`/${item.title}`}
+                                                    to={`/${item.id}`}
                                                     className="btn btn-color text-white btn-md mt-3"
                                                     
                                                 >
