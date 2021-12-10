@@ -1,5 +1,8 @@
 
+
 export const Get = async(url)=>{
+    
+    const token = process.env.REACT_APP_TOKEN_OBRAS
 
     try {
         const data = await fetch(url, {
@@ -7,7 +10,7 @@ export const Get = async(url)=>{
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 3|ruU31fAttxU0FKWmvV8pdB1GCyhQa7lNAQwBfEVb'
+                'Authorization': `Bearer ${token}`
             }
 
         })
