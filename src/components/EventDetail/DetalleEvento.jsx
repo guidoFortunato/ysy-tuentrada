@@ -1,10 +1,13 @@
 import React from 'react'
 import { withRouter } from 'react-router'
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { Get } from '../services/privateApiService'
 import rapsodia from '../../img/rapsodia.jpg'
 import { VariablesContext } from '../../context/VariablesProvider'
-import AdSense from 'react-adsense'
+import AdComponent from '../adsense/AdsenseComponent'
+import AdsenseComponent from '../adsense/AdsenseComponent'
+// import { AdsenseComponent } from '../adsense/AdsenseComponent'
+//import AdSense from 'react-adsense'
 
 
 
@@ -19,6 +22,10 @@ const DetalleEvento = (props) => {
 
 
     const {id} = useParams()
+
+    const comprar = ()=>{
+        console.log('click en comprar')
+    }
     
 
     React.useEffect(()=>{
@@ -51,7 +58,9 @@ const DetalleEvento = (props) => {
 
             <nav  className="navbar navbar-expand-lg navbar-dark navbar-active sticky-top">
                 <div className="container">
-                    <img src={variables.logo} style={{width: '125px', height: '40px'}}alt={variables.altLogo} />
+                    <Link to='/'>
+                        <img className='cursor' src={variables.logo} style={{width: '125px', height: '40px'}}alt={variables.altLogo} />
+                    </Link>
                     
                     
                     <button 
@@ -112,26 +121,13 @@ const DetalleEvento = (props) => {
                         <div className='container-button'>
                             <button 
                                     className="btn btn-warning boton"
+                                    onClick={()=>comprar()}
                                 >
                                         Comprar
                             </button>
                         </div>
                         
-                        <AdSense.Google 
-                            client='ca-pub-3241865431125040' 
-                            slot='8290866443' 
-                            style={{ display: 'block',height: 250, width: 300}} 
-                            format='auto' 
-                            responsive='true'
-                            layoutKey='-h6+2+12-4l+5y'
-                         /> 
-
-                         <ins
-                                className="adsbygoogle"
-                                data-ad-client="ca-pub-3241865431125040"
-                                data-ad-slot="8290866443"
-                                style={{ display: "inline-block", height: 250, width: 300 }}
-                            />
+                        <AdsenseComponent />
                         
                     </div>
                     
