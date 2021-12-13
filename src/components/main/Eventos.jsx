@@ -15,7 +15,7 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = process.env.REACT_APP_API_OBRAS    
+            const url = process.env.REACT_APP_API_ASTRAL    
 
             try {
 
