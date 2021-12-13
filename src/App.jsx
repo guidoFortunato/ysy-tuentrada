@@ -23,6 +23,7 @@ const TagManagerArgs = {
   gtmId: 'GTM-N2N9W5J'
 }
 
+TagManager.initialize(TagManagerArgs)
 
 
 
