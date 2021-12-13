@@ -16,7 +16,7 @@ import Eventos from './components/main/Eventos';
 import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
 import TagManager from 'react-gtm-module';
-import Error404 from './components/auth/Error404';
+//import Error404 from './components/auth/Error404';
 
 
 const TagManagerArgs = {

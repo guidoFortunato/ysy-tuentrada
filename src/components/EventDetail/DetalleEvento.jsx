@@ -4,10 +4,6 @@ import { Link, useParams } from "react-router-dom"
 import { Get } from '../services/privateApiService'
 import rapsodia from '../../img/rapsodia.jpg'
 import { VariablesContext } from '../../context/VariablesProvider'
-import AdComponent from '../adsense/AdsenseComponent'
-import AdsenseComponent from '../adsense/AdsenseComponent'
-// import { AdsenseComponent } from '../adsense/AdsenseComponent'
-//import AdSense from 'react-adsense'
 
 
 
@@ -30,7 +26,7 @@ const DetalleEvento = (props) => {
 
     React.useEffect(()=>{
         
-        // (window.adsbygoogle = window.adsbygoogle || []).push({});
+        
 
         const getData = async ()=>{
             const url = process.env.REACT_APP_API_OBRAS 
@@ -127,7 +123,7 @@ const DetalleEvento = (props) => {
                             </button>
                         </div>
                         
-                        <AdsenseComponent />
+                        
                         
                     </div>
                     
