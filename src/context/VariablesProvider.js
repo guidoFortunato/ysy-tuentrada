@@ -12,10 +12,6 @@ import logo from '../img/logo.png'
 import obras5 from '../img/obras5.webp'
 
 export const VariablesContext = React.createContext()
-// export const VariablesContext = React.createContext({
-//     contactoFromUbacacion:1,
-//     contactoTituloUbicacion:2
-//     })
 
 const VariablesProvider = (props) => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import {VariablesContext} from '../context/VariablesProvider'
+import { VariablesContext } from '../../context/VariablesProvider'
 
 const Imagenes = () => {
 
@@ -23,44 +23,44 @@ const Imagenes = () => {
                     
                     <div className="row portfolio-container">
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg1} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg2} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg3} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg4} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg5} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
 
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg6} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg7} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg8} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg9} className="img-fluid" alt={variables.venueName} />
                             
                         </div>

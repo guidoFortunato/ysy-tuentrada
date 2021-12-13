@@ -1,5 +1,5 @@
 import React from 'react'
-import {VariablesContext} from '../context/VariablesProvider'
+import { VariablesContext } from '../../context/VariablesProvider'
 
 const Section = () => {
 

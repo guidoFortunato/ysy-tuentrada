@@ -1,46 +1,26 @@
 import React from 'react'
-//import { withRouter } from 'react-router'
 import { Link } from "react-router-dom";
-import {VariablesContext} from '../context/VariablesProvider'
+import { VariablesContext } from '../../context/VariablesProvider'
+import { Get } from '../services/privateApiService';
 
 
 const Eventos = (props) => {
 
     const [eventos, setEventos] = React.useState([])
     const {variables} = React.useContext(VariablesContext)
-    //const [ids, setIds] = React.useState([])
 
 
 
     React.useEffect(()=>{
 
         const getData = async ()=>{
-            const url = 'https://api.tuentrada.com/api/venue?venue=obras'
             
+            const url = process.env.REACT_APP_API_OBRAS    
 
             try {
-                const data = await fetch(url, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer 3|ruU31fAttxU0FKWmvV8pdB1GCyhQa7lNAQwBfEVb'
-                    }
-                    
-                    
-                })
-                const res = await data.json()
-                // console.log(res[0])
-                // console.log(res[0].title)
-                setEventos(res)
 
-                // for (let i = 0; i < eventos.length; i++) {
-                //     console.log(i)
-                    
-                // }
-                // eventos.map(item=>(
-                //     ids.push(item.id)
-                // ))
-
+                const response = await Get(url)               
+                setEventos(response)       
 
             } catch (error) {
                 console.log(error)
@@ -51,17 +31,6 @@ const Eventos = (props) => {
         getData()
     }, [])
 
-    // const rellenarIds = ()=>{
-    //     for (let i = 0; i < eventos.length; i++) {
-    //         console.log(eventos[i].id.length)
-            
-               
-            
-                                
-    //     }
-
-    // }
-    // rellenarIds()
 
     return (
         
@@ -83,7 +52,7 @@ const Eventos = (props) => {
                                     
                                         
                                     
-                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2 zoom" key={item.id}>
+                                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" key={item.id}>
                                         <div className="card">                                            
                                             <img src={`https://tuentrada.com/${item.image}`} className="card-img-top" alt={item.title} />
                                             <div className="card-body">                                                
@@ -101,7 +70,7 @@ const Eventos = (props) => {
                                                     <span className='ms-1'>{item.time} hs</span>
                                                 </div>
                                                 <Link
-                                                    to={`/${item.title}`}
+                                                    to={`/${item.id}`}
                                                     className="btn btn-color text-white btn-md mt-3"
                                                     
                                                 >
