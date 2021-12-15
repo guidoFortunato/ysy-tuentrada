@@ -15,11 +15,12 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = process.env.REACT_APP_API_ASTRAL    
+            const url = 'https://api.tuentrada.com/api/venue?venue=obras'    
 
             try {
 
-                const response = await Get(url)               
+                const response = await Get(url) 
+                console.log(response)              
                 setEventos(response)       
 
             } catch (error) {
@@ -69,13 +70,22 @@ const Eventos = (props) => {
                                                     <span className='fecha-hora__color-texto'>Hora:</span>
                                                     <span className='ms-1'>{item.time} hs</span>
                                                 </div>
-                                                <Link
+                                                {/* <Link
                                                     to={`/${item.id}`}
                                                     className="btn btn-color text-white btn-md mt-3"
                                                     
                                                 >
                                                     Comprar
-                                                </Link>
+                                                </Link> */}
+                                                 <a
+                                                    className="btn btn-primary btn-color mt-4"
+                                                    rel="noreferrer"
+                                                    target='_blank'
+                                                    href={item.link_to_buy}
+                                                    
+                                                >
+                                                    Comprar
+                                                </a>
                                                 
                                             </div>
                                         </div>

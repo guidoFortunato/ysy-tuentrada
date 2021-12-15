@@ -2,7 +2,7 @@
 
 export const Get = async(url)=>{
     
-    const token = process.env.REACT_APP_TOKEN_ASTRAL
+    const token = '3|ruU31fAttxU0FKWmvV8pdB1GCyhQa7lNAQwBfEVb'
 
     try {
         const data = await fetch(url, {
