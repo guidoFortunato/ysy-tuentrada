@@ -19,8 +19,7 @@ const Eventos = (props) => {
 
             try {
 
-                const response = await Get(url) 
-                console.log(response)              
+                const response = await Get(url)               
                 setEventos(response)       
 
             } catch (error) {

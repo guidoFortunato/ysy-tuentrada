@@ -19,21 +19,21 @@ import TagManager from 'react-gtm-module';
 //import Error404 from './components/auth/Error404';
 
 
-// const TagManagerArgs = {
-//   gtmId: 'GTM-N2N9W5J'
-// }
+const TagManagerArgs = {
+  gtmId: 'GTM-N2N9W5J'
+}
 
-// TagManager.initialize(TagManagerArgs)
+TagManager.initialize(TagManagerArgs)
 
 
 
 function App() {
   
-  // useEffect(() => {
+  useEffect(() => {
     
-  //   TagManager.initialize(TagManagerArgs)
+    TagManager.initialize(TagManagerArgs)
     
-  // }, [])
+  }, [])
 
 
 
