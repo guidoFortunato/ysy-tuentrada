@@ -18,7 +18,7 @@ const Footer = () => {
                                 href={variables.linkTuentrada} 
                                 target="_blank"
                                 rel="noreferrer"
-                                className='ms-1'
+                                className='ms-2'
                                 >
                                     {variables.tuentradaName}
                                 </a>
