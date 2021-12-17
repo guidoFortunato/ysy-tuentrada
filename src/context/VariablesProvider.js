@@ -1,14 +1,15 @@
 import React from 'react'
 import portfolio1 from '../img/portfolio1.webp'
 import portfolio2 from '../img/portfolio2.webp'
+import portfolio3 from '../img/portfolio3.webp'
 import portfolio4 from '../img/portfolio4.webp'
 import portfolio5 from '../img/portfolio5.webp'
 import portfolio7 from '../img/portfolio7.webp'
 import portfolio8 from '../img/portfolio8.webp'
 import portfolio9 from '../img/portfolio9.webp'
-import obras2 from '../img/obras2.webp'
+// import obras2 from '../img/obras2.webp'
 import obras3 from '../img/obras3.webp'
-import logo from '../img/logo.webp'
+import logo from '../img/logo.png'
 import obras5 from '../img/obras5.webp'
 
 export const VariablesContext = React.createContext()
@@ -36,7 +37,7 @@ const VariablesProvider = (props) => {
         tituloImagenes: 'VIVÍ ASTRAL MIRAMAR',
         portfolioImg1: portfolio1,
         portfolioImg2: portfolio2,
-        portfolioImg3: obras2,
+        portfolioImg3: portfolio3,
         portfolioImg4: portfolio4,
         portfolioImg5: portfolio5,
         portfolioImg6: obras3,
@@ -52,8 +53,8 @@ const VariablesProvider = (props) => {
         tituloHistoriaArriba: '',
         tituloHistoriaAbajo: '',
         imagenHistoria: obras5,
-        descripcion1: 'El estadio Obras Sanitarias, desde 1978 alberga a más 6.000 bandas y solistas argentinos e internacionales, con una capacidad de 4.700 espectadores. El logro de poder presentarse en el escenario de Obras para los artistas nacionales de cualquier género es sinónimo de consagración, es un antes y un después en la vida artística. Los años han demostrado que hay un sentimiento que con el paso del tiempo se intensifica y que no pierde nunca esa mística.',
-        descripcion2: 'Las huellas de artistas y momentos que marcaron un antes y un después en un lugar emblema para Argentina. Presentaciones en vivo que terminaron siendo historias únicas, una de ellas fue en 1994 durante el show de B.B. King, cuando invitó a Pappo al escenario. Sin ir más lejos, este año Ciro Pertusi volvió a cantar con Attaque 77 y recientemente Ozzy Osbourne se despidió de Latinoamérica con su tour "No More Tours II".'
+        descripcion1: 'Teatro Astral Miramar está ubicado en la ciudad de miramar, brindando entretenimiento y actividades artísticas a toda la comunidad. Los mejores espectáculos han participado de esta hermosa sala, ideal para compartir en familia',
+        descripcion2: 'Se reinaguró en el año 2011, con una amplia cartelera de funciones teatrales en temporada. Cuenta con capacidad para 600 personas con una excelente acústica , camarines equipados para mas de 10 artistas en escena y un gran personal de trabajo.'
         
     }
 

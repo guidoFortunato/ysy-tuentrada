@@ -44,12 +44,12 @@ const Contacto = () => {
                                                 
 
                                         </div>
-                                            <div className='logos logo-consultas'>
+                                            {/* <div className='logos logo-consultas'>
                                                 <i className="bi bi-envelope-fill margin-icono-mail-responsive"></i>
                                                 <div className='ms-3'><a className='consultas' href={variables.mailTo}>{variables.mail}</a></div>
 
                                             
-                                            </div>
+                                            </div> */}
                                     </div>
 
                                 </div>
