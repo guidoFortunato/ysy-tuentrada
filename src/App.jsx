@@ -51,7 +51,7 @@ function App() {
             <Navbar/>
             <Section />         
             <Eventos />
-            <SectionHistoria />
+            {/* <SectionHistoria /> */}
             <Imagenes />
             <Contacto />
             {/* <BotonFlotante/> */}
