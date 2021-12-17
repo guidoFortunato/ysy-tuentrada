@@ -15,7 +15,7 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = 'https://api.tuentrada.com/api/venue?venue=seminari'    
+            const url = 'https://api.tuentrada.com/api/venue?venue=astral'    
 
             try {
 
@@ -32,7 +32,7 @@ const Eventos = (props) => {
     }, [])
 
 
-    return (
+    return eventos.length ? (
         
             <main id="main">
                 <section id="team">
@@ -102,7 +102,7 @@ const Eventos = (props) => {
 
             </main>
         
-    )
+    ) : null
 }
 
 export default Eventos
