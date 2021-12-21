@@ -15,7 +15,7 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = 'https://api.tuentrada.com/api/venue?venue=seminari'    
+            const url = 'https://api.tuentrada.com/api/venue?venue=astral'    
 
             try {
 
