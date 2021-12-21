@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teatro/astralmiramar/static/css/main.116c02d4.chunk.css",
-    "main.js": "/teatro/astralmiramar/static/js/main.ae2448d1.chunk.js",
-    "main.js.map": "/teatro/astralmiramar/static/js/main.ae2448d1.chunk.js.map",
+    "main.js": "/teatro/astralmiramar/static/js/main.c249065d.chunk.js",
+    "main.js.map": "/teatro/astralmiramar/static/js/main.c249065d.chunk.js.map",
     "runtime-main.js": "/teatro/astralmiramar/static/js/runtime-main.72dd6a86.js",
     "runtime-main.js.map": "/teatro/astralmiramar/static/js/runtime-main.72dd6a86.js.map",
     "static/js/2.a40662ef.chunk.js": "/teatro/astralmiramar/static/js/2.a40662ef.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.72dd6a86.js",
     "static/js/2.a40662ef.chunk.js",
     "static/css/main.116c02d4.chunk.css",
-    "static/js/main.ae2448d1.chunk.js"
+    "static/js/main.c249065d.chunk.js"
   ]
 }
