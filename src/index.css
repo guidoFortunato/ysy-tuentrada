@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("./img/fondoASTRAL2.webp") no-repeat center center;
+  background: #fff url("./img/miramar.webp") no-repeat center center;
 }
 
 .back-to-top {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url('./img/fondoASTRAL2.webp') top center;
+    background: url('./img/miramar.webp') top center;
     background-size: cover;
   }
   
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   #hero .hero-container {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.8);
     display: table-cell;
     margin: 0;
     padding: 0;
