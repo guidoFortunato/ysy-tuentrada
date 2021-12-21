@@ -37,7 +37,7 @@ const Imagenes = () => {
                             <img src={variables.portfolioImg3} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
-                        {/*
+                        
 
                         <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg4} className="img-fluid" alt={variables.venueName} />
@@ -53,7 +53,7 @@ const Imagenes = () => {
                             <img src={variables.portfolioImg6} className="img-fluid" alt={variables.venueName} />
                             
                         </div>
-                        <div className="col-lg-4 col-md-6 portfolio-item zoom">
+                        {/* <div className="col-lg-4 col-md-6 portfolio-item zoom">
                             <img src={variables.portfolioImg7} className="img-fluid" alt={variables.venueName} />
                             
                         </div>

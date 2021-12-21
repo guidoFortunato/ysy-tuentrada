@@ -4,13 +4,13 @@ import portfolio2 from '../img/portfolio2.webp'
 import portfolio3 from '../img/portfolio3.webp'
 import portfolio4 from '../img/portfolio4.webp'
 import portfolio5 from '../img/portfolio5.webp'
+import portfolio6 from '../img/portfolio6.webp'
 import portfolio7 from '../img/portfolio7.webp'
 import portfolio8 from '../img/portfolio8.webp'
 import portfolio9 from '../img/portfolio9.webp'
-// import obras2 from '../img/obras2.webp'
-import obras3 from '../img/obras3.webp'
+
 import logo from '../img/logo.png'
-import obras5 from '../img/obras5.webp'
+import historia from '../img/historia.webp'
 
 export const VariablesContext = React.createContext()
 
@@ -40,7 +40,7 @@ const VariablesProvider = (props) => {
         portfolioImg3: portfolio3,
         portfolioImg4: portfolio4,
         portfolioImg5: portfolio5,
-        portfolioImg6: obras3,
+        portfolioImg6: portfolio6,
         portfolioImg7: portfolio7,
         portfolioImg8: portfolio8,
         portfolioImg9: portfolio9,
@@ -52,7 +52,7 @@ const VariablesProvider = (props) => {
         botonInicio: 'SHOWS',
         tituloHistoriaArriba: '',
         tituloHistoriaAbajo: '',
-        imagenHistoria: obras5,
+        imagenHistoria: historia,
         descripcion1: 'Teatro Astral Miramar está ubicado en la ciudad de miramar, brindando entretenimiento y actividades artísticas a toda la comunidad. Los mejores espectáculos han participado de esta hermosa sala, ideal para compartir en familia',
         descripcion2: 'Se reinaguró en el año 2011, con una amplia cartelera de funciones teatrales en temporada. Cuenta con capacidad para 600 personas con una excelente acústica , camarines equipados para mas de 10 artistas en escena y un gran personal de trabajo.'
         
