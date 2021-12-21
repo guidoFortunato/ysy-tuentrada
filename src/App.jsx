@@ -58,9 +58,9 @@ function App() {
             <Footer />           
           </Route> 
 
-          <Route path='/:id' exact >
+          {/* <Route path='/:id' exact >
             <DetalleEvento />            
-          </Route>       
+          </Route>        */}
 
 
           {/* <Route path='*' component={Error404} /> */}
