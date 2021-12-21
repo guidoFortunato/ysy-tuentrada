@@ -34,7 +34,7 @@ const VariablesProvider = (props) => {
         linkVenueIg: "https://www.instagram.com/teatroastralmiramar/",
         volver: 'Volver',
         tituloEventos: 'PRÓXIMOS SHOWS',
-        tituloImagenes: 'VIVÍ ASTRAL MIRAMAR',
+        tituloImagenes: 'VIVÍ EL TEATRO EN MIRAMAR',
         portfolioImg1: portfolio1,
         portfolioImg2: portfolio2,
         portfolioImg3: portfolio3,
