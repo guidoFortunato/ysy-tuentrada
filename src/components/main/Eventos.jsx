@@ -32,7 +32,7 @@ const Eventos = (props) => {
     }, [])
 
 
-    return (
+    return eventos.length ? (
         
             <main id="main">
                 <section id="team">
@@ -69,13 +69,7 @@ const Eventos = (props) => {
                                                     <span className='fecha-hora__color-texto'>Hora:</span>
                                                     <span className='ms-1'>{item.time} hs</span>
                                                 </div>
-                                                {/* <Link
-                                                    to={`/${item.id}`}
-                                                    className="btn btn-color text-white btn-md mt-3"
-                                                    
-                                                >
-                                                    Comprar
-                                                </Link> */}
+                                                
                                                  <a
                                                     className="btn btn-primary btn-color mt-4"
                                                     rel="noreferrer"
@@ -102,7 +96,7 @@ const Eventos = (props) => {
 
             </main>
         
-    )
+    ) : null
 }
 
 export default Eventos
