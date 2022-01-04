@@ -16,7 +16,7 @@ const Eventos = (props) => {
 
         const getData = async ()=>{
             
-            const url = 'https://api.tuentrada.com/api/venue?venue=astral'    
+            const url = process.env.REACT_APP_API_ASTRAL    
 
             try {
 
