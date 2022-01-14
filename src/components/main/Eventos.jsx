@@ -33,7 +33,7 @@ const Eventos = (props) => {
                     }
         
                 })
-                console.log(res)
+                
                 
                 // eslint-disable-next-line no-throw-literal
                 if (!res.ok) throw {
@@ -41,6 +41,8 @@ const Eventos = (props) => {
                     status: res.status || "00", 
                     statusText: res.statusText || "Error al intentar acceder al servidor"
                 }
+
+               
                 const data = await res.json()
 
                  /*
