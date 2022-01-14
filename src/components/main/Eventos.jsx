@@ -20,8 +20,8 @@ const Eventos = (props) => {
         setLoading(true)
 
         const getData = async ()=>{
-            const url = 'https://api.tuentrada.com/api/venue?venue=astral'
-            const token = '3|ruU31fAttxU0FKWmvV8pdB1GCyhQa7lNAQwBfEVb'
+            const url = process.env.REACT_APP_API_ASTRAL
+            const token = process.env.REACT_APP_TOKEN_ASTRAL
 
             try {
                 const res = await fetch(url, {
