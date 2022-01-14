@@ -1,11 +1,11 @@
+/* eslint-disable no-throw-literal */
 
 
-export const Get = async(url)=>{
-    
-    const token = process.env.REACT_APP_TOKEN_ASTRAL
+export const Get = async(url,token)=>{
+
 
     try {
-        const data = await fetch(url, {
+        const res = await fetch(url, {
 
             method: 'GET',
             headers: {
@@ -14,12 +14,23 @@ export const Get = async(url)=>{
             }
 
         })
-        const res = await data.json()
-        return res
+
+
+        if (!res.ok) throw {
+            err: true,
+            status: res.status || "00", 
+            statusText: res.statusText || "Ocurrió un error"
+        }
+        
+        const data = await res.json()
+        
+        return data
 
         
     } catch (error) {
-        console.log(error)
+        let message = error.statusText
+        let status = error.status
+        return `Error ${status}: ${message}` 
     }
 
 
