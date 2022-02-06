@@ -7,6 +7,7 @@ import portfolio5 from '../img/portfolio5.webp'
 import portfolio6 from '../img/portfolio6.webp'
 
 import logo from '../img/logo.png'
+
 import historia from '../img/historia.webp'
 
 export const VariablesContext = React.createContext()
@@ -22,6 +23,7 @@ const VariablesProvider = (props) => {
         mail: 'consultas@foh-sa.com',
         iframeAlt: 'mapa atral miramar',
         logo: logo,
+        
         altLogo: "logo astral",
         venueName: 'Teatro Astral Miramar',
         tuentradaName: 'tuentrada.com',

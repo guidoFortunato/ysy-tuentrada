@@ -53,7 +53,7 @@ function App() {
             <Eventos />
             <SectionHistoria />
             <Imagenes />
-            <Contacto />
+            {/* <Contacto /> */}
             {/* <BotonFlotante/> */}
             <Footer />           
           </Route> 

@@ -9,9 +9,9 @@ const Section = () => {
             <section id="hero">
                 <div className="hero-container">
                 <div className="wow fadeIn">
-                    <div className="hero-logo">
+                    {/* <div className="hero-logo">
                     <img src={variables.logo} alt={variables.altLogo} />
-                    </div>
+                    </div> */}
 
                     <h1>{variables.tituloInicio}</h1>
                     
