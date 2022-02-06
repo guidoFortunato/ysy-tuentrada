@@ -24,7 +24,7 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
+                        <li className="nav-item me-3">
                         <Link 
                             className="nav-link cursor w-25 w-md-0" 
                             aria-current="page" 
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 {variables.elementoNavbar1}
                         </Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-3">
                         <Link 
                             
                             className="nav-link cursor w-25 w-md-0" 
@@ -68,7 +68,7 @@ const Navbar = () => {
                         >{variables.elementoNavbar3}
                         </Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                         <Link
                              
                             className="nav-link cursor w-25 w-md-0" 
@@ -81,7 +81,7 @@ const Navbar = () => {
                             
                         >{variables.elementoNavbar4}
                         </Link>
-                        </li>
+                        </li> */}
                     </ul>
                     </div>
                 </div>
