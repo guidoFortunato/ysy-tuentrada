@@ -44,7 +44,7 @@ const VariablesProvider = (props) => {
         elementoNavbar2: 'Historia',
         elementoNavbar3: 'Astral',
         elementoNavbar4: 'Ubicacion',
-        tituloInicio: '',
+        tituloInicio: 'NO TE VA GUSTAR',
         botonInicio: 'SHOWS',
         tituloHistoriaArriba: '',
         tituloHistoriaAbajo: '',
