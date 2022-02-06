@@ -44,7 +44,7 @@ const VariablesProvider = (props) => {
         elementoNavbar2: 'Historia',
         elementoNavbar3: 'Astral',
         elementoNavbar4: 'Ubicacion',
-        tituloInicio: 'Bienvenidos al Teatro Astral Miramar',
+        tituloInicio: '',
         botonInicio: 'SHOWS',
         tituloHistoriaArriba: '',
         tituloHistoriaAbajo: '',
