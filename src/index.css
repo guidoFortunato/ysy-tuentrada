@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("./img/ntvgFondo2.webp") no-repeat center;
+  background: #fff url("./img/ntvgFondo3.webp") no-repeat center;
 }
 
 .back-to-top {
@@ -93,18 +93,30 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url('./img/ntvgFondo2.webp')center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url('./img/ntvgFondo3.webp')center;
+    background-size: cover;
+    
+    
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 792px) {
     #hero {      
       background: url('./img/ntvgResponsive2.webp') bottom center;
        background-size: cover; 
     }
     #preloader {
       background: #fff url("./img/ntvgResponsive2.webp") no-repeat bottom center;
+      background-size: cover; 
+      
+    }
+  }
+  @media screen and (min-width: 793px) and (max-width: 1500px){
+    #hero {      
+      background: url('https://www.notevagustar.com/img/disco-luz.jpg') bottom center;
+       background-size: cover; 
+    }
+    #preloader {
+      background: #fff url("https://www.notevagustar.com/img/disco-luz.jpg") no-repeat bottom center;
       background-size: cover; 
       
     }
@@ -253,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Desktop Navigation */
 
   .navbar-active{
-    background: rgba(127, 127, 127, 0.80);
+    background: rgba(0, 0, 0, 0.80);
   }
 
 

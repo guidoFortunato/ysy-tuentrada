@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gira/ntvg/static/css/main.c3874527.chunk.css",
+    "main.css": "/gira/ntvg/static/css/main.396d9e9e.chunk.css",
     "main.js": "/gira/ntvg/static/js/main.15223014.chunk.js",
     "main.js.map": "/gira/ntvg/static/js/main.15223014.chunk.js.map",
     "runtime-main.js": "/gira/ntvg/static/js/runtime-main.be9abfd2.js",
@@ -8,7 +8,7 @@
     "static/js/2.319f144c.chunk.js": "/gira/ntvg/static/js/2.319f144c.chunk.js",
     "static/js/2.319f144c.chunk.js.map": "/gira/ntvg/static/js/2.319f144c.chunk.js.map",
     "index.html": "/gira/ntvg/index.html",
-    "static/css/main.c3874527.chunk.css.map": "/gira/ntvg/static/css/main.c3874527.chunk.css.map",
+    "static/css/main.396d9e9e.chunk.css.map": "/gira/ntvg/static/css/main.396d9e9e.chunk.css.map",
     "static/js/2.319f144c.chunk.js.LICENSE.txt": "/gira/ntvg/static/js/2.319f144c.chunk.js.LICENSE.txt",
     "static/media/historia.de4cda4c.webp": "/gira/ntvg/static/media/historia.de4cda4c.webp",
     "static/media/logo.d89aa992.png": "/gira/ntvg/static/media/logo.d89aa992.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.be9abfd2.js",
     "static/js/2.319f144c.chunk.js",
-    "static/css/main.c3874527.chunk.css",
+    "static/css/main.396d9e9e.chunk.css",
     "static/js/main.15223014.chunk.js"
   ]
 }
