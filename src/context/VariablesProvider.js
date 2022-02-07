@@ -44,7 +44,7 @@ const VariablesProvider = (props) => {
         portfolioImg6: portfolio6,
         imgEventos: ntvg381,
         elementoNavbar1: 'Shows',
-        elementoNavbar2: 'Historia',
+        elementoNavbar2: 'Luz',
         elementoNavbar3: 'NTVG',
         elementoNavbar4: 'Ubicacion',
         tituloInicio: '',
