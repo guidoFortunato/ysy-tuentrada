@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("./img/ntvg1920x688.jpg") no-repeat center;
+  background: #fff url("./img/ntvg1920x688.webp") no-repeat center;
 }
 
 .back-to-top {
@@ -93,17 +93,17 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url('./img/ntvg1920x688.jpg')center;
+    background: url('./img/ntvg1920x688.webp')center;
     background-size: cover;
   }
 
   @media screen and (max-width: 760px) {
     #hero {      
-      background: url('./img/historia_750x1334\ \(1\).png') bottom center;
+      background: url('./img/ntvgResponsive2.webp') bottom center;
        background-size: cover; 
     }
     #preloader {
-      background: #fff url("./img/historia_750x1334\ \(1\).png") no-repeat bottom center;
+      background: #fff url("./img/ntvgResponsive2.webp") no-repeat bottom center;
       background-size: cover; 
       
     }
