@@ -99,11 +99,11 @@ h1, h2, h3, h4, h5, h6 {
 
   @media screen and (max-width: 760px) {
     #hero {      
-      background: url('./img/miramar7.webp') bottom center;
-      /* background-size: cover; */
+      background: url('./img/ntvg-responsive.jpg') bottom center;
+      background-size: cover;
     }
     #preloader {
-      background: #fff url("./img/miramar7.webp") no-repeat;
+      background: #fff url("./img/ntvg-responsive.jpg") no-repeat;
     }
   }
   
