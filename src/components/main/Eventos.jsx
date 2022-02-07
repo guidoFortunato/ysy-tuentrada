@@ -123,7 +123,7 @@ const Eventos = (props) => {
                                         className="btn btn-primary btn-color mt-4"
                                         rel="noreferrer"
                                         target='_blank'
-                                        href='/'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/992519794712'
                                         
                                     >
                                         Comprar
@@ -132,6 +132,7 @@ const Eventos = (props) => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
                             <div className="card">                                            
                                 <img src={variables.imgEventos} className="card-img-top" alt='ntvg' />
@@ -159,7 +160,7 @@ const Eventos = (props) => {
                                         className="btn btn-primary btn-color mt-4"
                                         rel="noreferrer"
                                         target='_blank'
-                                        href='/'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/667614595308'
                                         
                                     >
                                         Comprar
@@ -168,6 +169,43 @@ const Eventos = (props) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
+                            <div className="card">                                            
+                                <img src={variables.imgEventos} className="card-img-top" alt='ntvg' />
+                                <div className="card-body">                                                
+                                    <h6 className='card-title'>NTVG</h6>
+            
+                                    <div className="fecha-hora">
+                                        <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Fecha:</span>
+                                        <span className='ms-1'>10-04-22</span>
+                                    </div>
+            
+                                    <div className="fecha-hora mt-1">
+                                        <i className="bi bi-clock-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Hora:</span>
+                                        <span className='ms-1'>22:00 hs</span>
+                                    </div>
+                                    <div className="fecha-hora mt-1">
+                                        <i className="bi bi-clock-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Lugar: </span>
+                                        <span className='ms-1'>San Juan</span>
+                                    </div>
+                                    
+                                    <a
+                                        className="btn btn-primary btn-color mt-4"
+                                        rel="noreferrer"
+                                        target='_blank'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/236818741784'
+                                        
+                                    >
+                                        Comprar
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
                             <div className="card">                                            
@@ -184,7 +222,7 @@ const Eventos = (props) => {
                                     <div className="fecha-hora mt-1">
                                         <i className="bi bi-clock-fill color-icono me-2"></i>
                                         <span className='fecha-hora__color-texto'>Hora:</span>
-                                        <span className='ms-1'>20:00 hs</span>
+                                        <span className='ms-1'>21:00 hs</span>
                                     </div>
                                     <div className="fecha-hora mt-1">
                                         <i className="bi bi-clock-fill color-icono me-2"></i>
@@ -196,7 +234,7 @@ const Eventos = (props) => {
                                         className="btn btn-primary btn-color mt-4"
                                         rel="noreferrer"
                                         target='_blank'
-                                        href='/'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/122181425407'
                                         
                                     >
                                         Comprar
@@ -232,7 +270,7 @@ const Eventos = (props) => {
                                         className="btn btn-primary btn-color mt-4"
                                         rel="noreferrer"
                                         target='_blank'
-                                        href='/'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/572188614030'
                                         
                                     >
                                         Comprar
@@ -268,7 +306,7 @@ const Eventos = (props) => {
                                         className="btn btn-primary btn-color mt-4"
                                         rel="noreferrer"
                                         target='_blank'
-                                        href='/'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/203588539953'
                                         
                                     >
                                         Comprar
