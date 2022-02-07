@@ -6,9 +6,12 @@ import portfolio4 from '../img/portfolio4.webp'
 import portfolio5 from '../img/portfolio5.webp'
 import portfolio6 from '../img/portfolio6.webp'
 
+
 import logo from '../img/logo.png'
 
 import historia from '../img/historia.webp'
+import ntvg381 from '../img/ntvg381.webp'
+
 
 export const VariablesContext = React.createContext()
 
@@ -16,12 +19,12 @@ const VariablesProvider = (props) => {
 
 
     const variablesGlobales = {
-        iframeUbicacion: 'https://maps.google.com/maps?q=21%20N%C2%B01510,%20miramar&t=&z=13&ie=UTF8&iwloc=&output=embed',
+        iframeUbicacion: '',
         tituloUbicacion: 'Ubicación',
-        direccion: 'calle 21 N°1510 - Miramar',
-        mailTo: 'mailto:consultas@foh-sa.com',
-        mail: 'consultas@foh-sa.com',
-        iframeAlt: 'mapa astral miramar',
+        direccion: '',
+        mailTo: '',
+        mail: '',
+        iframeAlt: '',
         logo: logo,        
         altLogo: "logo tuentrada",
         venueName: 'NTVG',
@@ -39,6 +42,7 @@ const VariablesProvider = (props) => {
         portfolioImg4: portfolio4,
         portfolioImg5: portfolio5,
         portfolioImg6: portfolio6,
+        imgEventos: ntvg381,
         elementoNavbar1: 'Shows',
         elementoNavbar2: 'Historia',
         elementoNavbar3: 'NTVG',
@@ -48,8 +52,8 @@ const VariablesProvider = (props) => {
         tituloHistoriaArriba: '',
         tituloHistoriaAbajo: '',
         imagenHistoria: historia,
-        descripcion1: 'Teatro Astral Miramar está ubicado en la ciudad de miramar, brindando entretenimiento y actividades artísticas a toda la comunidad. Los mejores espectáculos han participado de esta hermosa sala, ideal para compartir en familia',
-        descripcion2: 'Se reinaguró en el año 2011, con una amplia cartelera de funciones teatrales en temporada. Cuenta con capacidad para 600 personas con una excelente acústica , camarines equipados para mas de 10 artistas en escena y un gran personal de trabajo.'
+        descripcion1: 'No Te Va Gustar (popularmente abreviada y estilizada como NTVG) es una banda uruguaya de rock formada el 25 de junio de 1994 en Montevideo. Está integrada por Emiliano Brancciari (voz y guitarra), Guzmán Silveira (bajo y coros), Diego Bartaburu (batería), Martín Gil (trompeta y coros), Denis Ramos (trombón y coros), Mauricio Ortiz (saxofón barítono y tenor), Pablo Coniberti (guitarra y coros) y Francisco Nasser (teclados,coros y guitarra).',
+        descripcion2: 'A la hora de hacer la primera presentación en un festival, la banda todavía no tenía un nombre. Emiliano y Mateo pensaron un nombre que, según cuentan, era muy malo (y por cábala nunca contaron cuál era). Cuando le fueron a contar a Pablo (el batero), le dijeron textualmente "Tenemos el nombre [...] no te va a gustar", a lo que este respondió "¡Está buenísimo!". Se dieron cuenta, entonces, que era mucho mejor que el que habían pensado y lo propusieron definitivamente'
         
     }
 

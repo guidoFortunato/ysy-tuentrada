@@ -43,7 +43,7 @@ function App() {
     <>
     <VariablesProvider>
 
-      <Router basename={'/teatro/astralmiramar'}> 
+      <Router basename={'/newsletter/ntvg'}> 
       
 
         <Switch>

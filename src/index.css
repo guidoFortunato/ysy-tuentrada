@@ -10,20 +10,20 @@ a {
 }
 
 .btn-color{
-  background-color: #B10439 !important;
-  border-color: #B10439 !important;
+  background-color: #A36F40 !important;
+  border-color: #A36F40 !important;
   transition: all 400ms ease;
 }
 .btn-color:hover{
   background-color: #fff !important;
-  border-color: #B10439 !important;
-  color: #B10439 !important;
+  border-color: #A36F40 !important;
+  color: #A36F40 !important;
   
   
 }
 
 a:hover, a:active, a:focus {
-  color: #B10439;
+  color: #A36F40;
   outline: none;
   text-decoration: none;
 }
@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
   .section-title-divider {
     width: 50px;
     height: 3px;
-    background: #B10439;
+    background: #A36F40;
     margin: 0 auto;
     margin-bottom: 20px;
   }
@@ -1515,12 +1515,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   footer a{
-    color: #ce5f80;
+    color: #A36F40;
     text-decoration: none;
   }
   
   footer a:hover{
-    color: #B10439;
+    color: #b4855b;
   }
 
 
@@ -1550,13 +1550,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .fecha-hora__color-texto{
-      color: #B10439;
+      color: #A36F40;
       font-weight: 700;
     }
 
 
     .color-icono{
-      color: #B10439;
+      color: #A36F40;
     }
 
     .logo-consultas{
