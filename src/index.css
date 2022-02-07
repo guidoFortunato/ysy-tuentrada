@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
       
     }
   }
-  @media screen and (min-width: 793px) and (max-width: 1500px){
-    #hero {      
+  @media screen and (min-width: 793px) and (max-width: 1126px){
+    #hero {
       background: url('https://www.notevagustar.com/img/disco-luz.jpg') bottom center;
        background-size: cover;
        width: 100% !important;
