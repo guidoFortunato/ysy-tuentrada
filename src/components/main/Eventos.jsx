@@ -281,6 +281,43 @@ const Eventos = (props) => {
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
                             <div className="card">                                            
+                                <img src={variables.imgEventos} className="card-img-top" alt='ntvg' />
+                                <div className="card-body">                                                
+                                    <h6 className='card-title'>NTVG</h6>
+            
+                                    <div className="fecha-hora">
+                                        <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Fecha:</span>
+                                        <span className='ms-1'>17-04-22</span>
+                                    </div>
+            
+                                    <div className="fecha-hora mt-1">
+                                        <i className="bi bi-clock-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Hora:</span>
+                                        <span className='ms-1'>20:00 hs</span>
+                                    </div>
+                                    <div className="fecha-hora mt-1">
+                                        <i className="bi bi-clock-fill color-icono me-2"></i>
+                                        <span className='fecha-hora__color-texto'>Lugar: </span>
+                                        <span className='ms-1'>Bariloche</span>
+                                    </div>
+                                    
+                                    <a
+                                        className="btn btn-primary btn-color mt-4"
+                                        rel="noreferrer"
+                                        target='_blank'
+                                        href='https://www.tuentrada.com/eventos/detalle/NTVG/862494585000'
+                                        
+                                    >
+                                        Comprar
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
+                            <div className="card">                                            
                                 <img src={variables.ntvgTandil} className="card-img-top" alt='ntvg' />
                                 <div className="card-body">                                                
                                     <h6 className='card-title'>NTVG</h6>
