@@ -281,7 +281,7 @@ const Eventos = (props) => {
                         </div>
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2" >
                             <div className="card">                                            
-                                <img src={variables.imgEventos} className="card-img-top" alt='ntvg' />
+                                <img src={variables.ntvgBariloche} className="card-img-top" alt='ntvg' />
                                 <div className="card-body">                                                
                                     <h6 className='card-title'>NTVG</h6>
             

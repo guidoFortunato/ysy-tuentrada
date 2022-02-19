@@ -17,6 +17,7 @@ import mendozaNTVG from '../img/mendozaNTVG.webp'
 import rosarioNTVG from '../img/rosarioNTVG.webp'
 import sanjuanNTVG from '../img/sanjuanNTVG.webp'
 import tandilNTVG from '../img/tandilNTVG.webp'
+import barilocheNTVG from '../img/barilocheNTVG.webp'
 
 
 export const VariablesContext = React.createContext()
@@ -55,6 +56,7 @@ const VariablesProvider = (props) => {
         ntvgMendoza: mendozaNTVG,
         ntvgTandil: tandilNTVG,
         ntvgRosario: rosarioNTVG,
+        ntvgBariloche: barilocheNTVG,
         elementoNavbar1: 'Shows',
         elementoNavbar2: 'Luz',
         elementoNavbar3: 'NTVG',

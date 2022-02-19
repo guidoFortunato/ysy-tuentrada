@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gira/ntvg/static/css/main.4fc82fb0.chunk.css",
-    "main.js": "/gira/ntvg/static/js/main.da862fb3.chunk.js",
-    "main.js.map": "/gira/ntvg/static/js/main.da862fb3.chunk.js.map",
+    "main.js": "/gira/ntvg/static/js/main.3f51e3a1.chunk.js",
+    "main.js.map": "/gira/ntvg/static/js/main.3f51e3a1.chunk.js.map",
     "runtime-main.js": "/gira/ntvg/static/js/runtime-main.be9abfd2.js",
     "runtime-main.js.map": "/gira/ntvg/static/js/runtime-main.be9abfd2.js.map",
     "static/js/2.319f144c.chunk.js": "/gira/ntvg/static/js/2.319f144c.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.be9abfd2.js",
     "static/js/2.319f144c.chunk.js",
     "static/css/main.4fc82fb0.chunk.css",
-    "static/js/main.da862fb3.chunk.js"
+    "static/js/main.3f51e3a1.chunk.js"
   ]
 }
