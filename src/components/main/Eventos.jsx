@@ -372,7 +372,7 @@ const Eventos = (props) => {
                     className="btn btn-primary btn-color mt-4"
                     rel="noreferrer"
                     target="_blank"
-                    href="/"
+                    href="https://www.tuentrada.com/eventos/detalle/NTVG/856120238836"
                   >
                     Comprar
                   </a>
