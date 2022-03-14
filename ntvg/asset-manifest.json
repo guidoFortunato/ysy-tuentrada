@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gira/ntvg/static/css/main.4fc82fb0.chunk.css",
-    "main.js": "/gira/ntvg/static/js/main.3f51e3a1.chunk.js",
-    "main.js.map": "/gira/ntvg/static/js/main.3f51e3a1.chunk.js.map",
+    "main.js": "/gira/ntvg/static/js/main.c887aa71.chunk.js",
+    "main.js.map": "/gira/ntvg/static/js/main.c887aa71.chunk.js.map",
     "runtime-main.js": "/gira/ntvg/static/js/runtime-main.be9abfd2.js",
     "runtime-main.js.map": "/gira/ntvg/static/js/runtime-main.be9abfd2.js.map",
     "static/js/2.319f144c.chunk.js": "/gira/ntvg/static/js/2.319f144c.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.4fc82fb0.chunk.css.map": "/gira/ntvg/static/css/main.4fc82fb0.chunk.css.map",
     "static/js/2.319f144c.chunk.js.LICENSE.txt": "/gira/ntvg/static/js/2.319f144c.chunk.js.LICENSE.txt",
     "static/media/bahiablancaNTVG.55cd6d89.webp": "/gira/ntvg/static/media/bahiablancaNTVG.55cd6d89.webp",
+    "static/media/barilocheNTVG.15bfc557.webp": "/gira/ntvg/static/media/barilocheNTVG.15bfc557.webp",
     "static/media/historia.de4cda4c.webp": "/gira/ntvg/static/media/historia.de4cda4c.webp",
     "static/media/lapampaNTVG.1ce5bea6.webp": "/gira/ntvg/static/media/lapampaNTVG.1ce5bea6.webp",
     "static/media/logo.d89aa992.png": "/gira/ntvg/static/media/logo.d89aa992.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.be9abfd2.js",
     "static/js/2.319f144c.chunk.js",
     "static/css/main.4fc82fb0.chunk.css",
-    "static/js/main.3f51e3a1.chunk.js"
+    "static/js/main.c887aa71.chunk.js"
   ]
 }
