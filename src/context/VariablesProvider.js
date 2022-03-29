@@ -19,7 +19,11 @@ import rosarioNTVG from "../img/rosarioNTVG.webp";
 import sanjuanNTVG from "../img/sanjuanNTVG.webp";
 import tandilNTVG from "../img/tandilNTVG.webp";
 import barilocheNTVG from "../img/barilocheNTVG.webp";
-import cordobaNTVG from "../img/cordobaNTVG.webp";
+import ntvgNeuquen from "../img/ntvgNeuquen.webp";
+import ntvgTucuman from "../img/ntvgTucuman.webp";
+import ntvgJujuy from "../img/ntvgJujuy.webp";
+import ntvgCordoba from "../img/ntvgCordoba.webp";
+import ntvgJunin from "../img/ntvgJunin.webp";
 
 export const VariablesContext = React.createContext();
 
@@ -54,9 +58,14 @@ const VariablesProvider = (props) => {
     ntvgSanjuan: sanjuanNTVG,
     ntvgMendoza: mendozaNTVG,
     ntvgTandil: tandilNTVG,
-    ntvgCordoba: cordobaNTVG,
+    //ntvgCordoba: cordobaNTVG,
     ntvgRosario: rosarioNTVG,
     ntvgBariloche: barilocheNTVG,
+    ntvgNeuquen: ntvgNeuquen,
+    ntvgCordoba: ntvgCordoba,
+    ntvgJujuy: ntvgJujuy,
+    ntvgJunin: ntvgJunin,
+    ntvgTucuman: ntvgTucuman,
     elementoNavbar1: "Shows",
     elementoNavbar2: "Luz",
     elementoNavbar3: "NTVG",
