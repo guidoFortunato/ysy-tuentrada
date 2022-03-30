@@ -58,6 +58,7 @@ const VariablesProvider = (props) => {
     ntvgSanjuan: sanjuanNTVG,
     ntvgMendoza: mendozaNTVG,
     ntvgTandil: tandilNTVG,
+    ntvg381: ntvg381,
     //ntvgCordoba: cordobaNTVG,
     ntvgRosario: rosarioNTVG,
     ntvgBariloche: barilocheNTVG,
