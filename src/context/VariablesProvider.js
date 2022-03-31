@@ -24,7 +24,8 @@ import ntvgTucuman from "../img/ntvgTucuman.webp";
 import ntvgJujuy from "../img/ntvgJujuy.webp";
 import ntvgCordoba from "../img/ntvgCordoba.webp";
 import ntvgJunin from "../img/ntvgJunin.webp";
-import ntvg1516abril from "../img/ntvg1516abril.webp"
+import ntvg1516abril from "../img/ntvg1516abril.webp";
+import ntvgGenerica from "../img/ntvgGenerica.webp"
 
 export const VariablesContext = React.createContext();
 
@@ -60,7 +61,7 @@ const VariablesProvider = (props) => {
     ntvgMendoza: mendozaNTVG,
     ntvgTandil: tandilNTVG,
     ntvg381: ntvg381,
-    //ntvgCordoba: cordobaNTVG,
+    ntvgGenerica: ntvgGenerica,
     ntvgRosario: rosarioNTVG,
     ntvgBariloche: barilocheNTVG,
     ntvgNeuquen: ntvgNeuquen,

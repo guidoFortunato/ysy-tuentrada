@@ -268,7 +268,7 @@ const Eventos = (props) => {
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
-                  src={variables.ntvg1516abril}
+                  src={variables.ntvg381}
                   className="card-img-top"
                   alt="ntvg"
                 />
@@ -538,7 +538,7 @@ const Eventos = (props) => {
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
-                  src={variables.ntvg381}
+                  src={variables.ntvgGenerica}
                   className="card-img-top"
                   alt="ntvg"
                 />
