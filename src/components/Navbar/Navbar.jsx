@@ -30,8 +30,12 @@ const Navbar = () => {
             {/* <nav className={scrollNav > 0 ? "navbar navbar-expand-lg navbar-dark bg-dark fixed-top" : "navbar navbar-expand-lg navbar-dark fixed-top"}> */}
             <nav data-toggle="collapse" className={navbar ? "navbar navbar-expand-lg navbar-dark navbar-active fixed-top" : "navbar navbar-expand-lg navbar-dark fixed-top"}>
                 <div className="container">
+                        <a href="https://www.tuentrada.com/" target='_blank' rel='noreferrer'>
+                            <img src={variables.logo} style={{width: 'auto', height: 'auto'}} alt={variables.altLogo} />
+                        </a>
+
                     
-                        <img src={variables.logo} style={{width: 'auto', height: 'auto'}} alt={variables.altLogo} />
+
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
