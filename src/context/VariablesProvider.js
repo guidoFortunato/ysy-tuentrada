@@ -24,6 +24,7 @@ import ntvgTucuman from "../img/ntvgTucuman.webp";
 import ntvgJujuy from "../img/ntvgJujuy.webp";
 import ntvgCordoba from "../img/ntvgCordoba.webp";
 import ntvgJunin from "../img/ntvgJunin.webp";
+import ntvg1516abril from "../img/ntvg1516abril.webp"
 
 export const VariablesContext = React.createContext();
 
@@ -67,6 +68,7 @@ const VariablesProvider = (props) => {
     ntvgJujuy: ntvgJujuy,
     ntvgJunin: ntvgJunin,
     ntvgTucuman: ntvgTucuman,
+    ntvg1516abril: ntvg1516abril,
     elementoNavbar1: "Shows",
     elementoNavbar2: "Luz",
     elementoNavbar3: "NTVG",

@@ -229,7 +229,6 @@ const Eventos = (props) => {
               </div>
             </div>
 
-
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
@@ -269,7 +268,7 @@ const Eventos = (props) => {
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
-                  src={variables.ntvgNeuquen}
+                  src={variables.ntvg1516abril}
                   className="card-img-top"
                   alt="ntvg"
                 />
@@ -278,7 +277,7 @@ const Eventos = (props) => {
                   <div className="fecha-hora">
                     <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
                     <span className="fecha-hora__color-texto">Fecha:</span>
-                    <span className="ms-1">16-04-22</span>
+                    <span className="ms-1">15 y 16-04-22</span>
                   </div>
                   <div className="fecha-hora mt-1">
                     <i className="bi bi-clock-fill color-icono me-2"></i>
@@ -301,9 +300,6 @@ const Eventos = (props) => {
                 </div>
               </div>
             </div>
-
-
-
 
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
@@ -421,7 +417,7 @@ const Eventos = (props) => {
                 </div>
               </div>
             </div>
-            
+
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
@@ -460,7 +456,6 @@ const Eventos = (props) => {
                 </div>
               </div>
             </div>
-
 
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
@@ -540,7 +535,6 @@ const Eventos = (props) => {
               </div>
             </div>
 
-
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
@@ -579,10 +573,6 @@ const Eventos = (props) => {
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </section>
