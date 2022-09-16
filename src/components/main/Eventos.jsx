@@ -74,6 +74,17 @@ const Eventos = (props) => {
           </div>
 
           <div className="row">
+            <div className="container">
+              <div className="col-12 text-center mt-2 mb-2">
+                <div className="container-alerta alerta-danger" role="alert">
+                  <h4 className="text-center margin-0">
+                    No hay shows disponibles en este momento
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            {/* 
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
               <div className="card">
                 <img
@@ -82,7 +93,7 @@ const Eventos = (props) => {
                   alt="ntvg"
                 />
                 <div className="card-body">
-                  {/* <h6 className='card-title'>NTVG</h6> */}
+                 
 
                   <div className="fecha-hora">
                     <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
@@ -111,163 +122,7 @@ const Eventos = (props) => {
                   </a>
                 </div>
               </div>
-            </div>
-
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
-              <div className="card">
-                <img
-                  src={variables.ntvgCordoba}
-                  className="card-img-top"
-                  alt="ntvg"
-                />
-                <div className="card-body">
-                  {/* <h6 className='card-title'>NTVG</h6> */}
-
-                  <div className="fecha-hora">
-                    <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Fecha:</span>
-                    <span className="ms-1">25-06-22</span>
-                  </div>
-
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Hora:</span>
-                    <span className="ms-1">20:00 hs</span>
-                  </div>
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Lugar: </span>
-                    <span className="ms-1">Córdoba</span>
-                  </div>
-
-                  <a
-                    className="btn btn-primary btn-color mt-4"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.tuentrada.com/eventos/detalle/NTVG/856120238836"
-                  >
-                    Comprar
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
-              <div className="card">
-                <img
-                  src={variables.ntvgJujuy}
-                  className="card-img-top"
-                  alt="ntvg"
-                />
-                <div className="card-body">
-                  {/* <h6 className='card-title'>NTVG</h6> */}
-
-                  <div className="fecha-hora">
-                    <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Fecha:</span>
-                    <span className="ms-1">30-06-22</span>
-                  </div>
-
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Hora:</span>
-                    <span className="ms-1">22:00 hs</span>
-                  </div>
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Lugar: </span>
-                    <span className="ms-1">Jujuy</span>
-                  </div>
-
-                  <a
-                    className="btn btn-primary btn-color mt-4"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.tuentrada.com/eventos/detalle/NTVG/874747320361"
-                  >
-                    Comprar
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
-              <div className="card">
-                <img
-                  src={variables.ntvgTucuman}
-                  className="card-img-top"
-                  alt="ntvg"
-                />
-                <div className="card-body">
-                  {/* <h6 className='card-title'>NTVG</h6> */}
-
-                  <div className="fecha-hora">
-                    <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Fecha:</span>
-                    <span className="ms-1">02-07-22</span>
-                  </div>
-
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Hora:</span>
-                    <span className="ms-1">22:00 hs</span>
-                  </div>
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Lugar: </span>
-                    <span className="ms-1">Tucumán</span>
-                  </div>
-
-                  <a
-                    className="btn btn-primary btn-color mt-4"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.tuentrada.com/eventos/detalle/NTVG/353175694909"
-                  >
-                    Comprar
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-center mt-2 mb-2">
-              <div className="card">
-                <img
-                  src={variables.ntvgGenerica}
-                  className="card-img-top"
-                  alt="ntvg"
-                />
-                <div className="card-body">
-                  {/* <h6 className='card-title'>NTVG</h6> */}
-
-                  <div className="fecha-hora">
-                    <i className="bi bi-calendar2-check-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Fecha:</span>
-                    <span className="ms-1">07-07-22</span>
-                  </div>
-
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Hora:</span>
-                    <span className="ms-1">21:00 hs</span>
-                  </div>
-                  <div className="fecha-hora mt-1">
-                    <i className="bi bi-clock-fill color-icono me-2"></i>
-                    <span className="fecha-hora__color-texto">Lugar: </span>
-                    <span className="ms-1">Posadas</span>
-                  </div>
-
-                  <a
-                    className="btn btn-primary btn-color mt-4"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.tuentrada.com/eventos/detalle/NTVG/633622412663"
-                  >
-                    Comprar
-                  </a>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
