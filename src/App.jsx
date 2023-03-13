@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Section from './components/main/Section';
 import SectionHistoria from './components/main/SectionHistoria';
 import Imagenes from './components/main/Imagenes';
@@ -15,25 +15,25 @@ import Navbar from './components/Navbar/Navbar';
 import Eventos from './components/main/Eventos';
 // import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
-import TagManager from 'react-gtm-module';
+// import TagManager from 'react-gtm-module';
 //import Error404 from './components/auth/Error404';
 
 
-const TagManagerArgs = {
-  gtmId: 'GTM-N2N9W5J'
-}
+// const TagManagerArgs = {
+//   gtmId: 'GTM-N2N9W5J'
+// }
 
-TagManager.initialize(TagManagerArgs)
+// TagManager.initialize(TagManagerArgs)
 
 
 
 function App() {
   
-  useEffect(() => {
+  // useEffect(() => {
     
-    TagManager.initialize(TagManagerArgs)
+  //   TagManager.initialize(TagManagerArgs)
     
-  }, [])
+  // }, [])
 
 
 
@@ -43,7 +43,7 @@ function App() {
     <>
     <VariablesProvider>
 
-      <Router basename={'/gira/ntvg'}> 
+      <Router basename='/gira/YsY-A'> 
       
 
         <Switch>

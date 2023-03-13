@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("./img/ntvgFondo3.webp") no-repeat center;
+  background: #fff url("./img/1920x1080.webp") no-repeat center;
 }
 
 .back-to-top {
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     width: 100% !important;
     height: 100vh;
-    background: url('./img/ntvgFondo3.webp')center;
+    background: url('./img/1920x1080.webp')center;
     background-size: cover;
     
     
@@ -101,18 +101,18 @@ h1, h2, h3, h4, h5, h6 {
 
   @media screen and (max-width: 792px) {
     #hero {      
-      background: url('./img/ntvgResponsive2.webp') bottom center;
+      background: url('./img/720x1280.webp') bottom center;
       background-size: cover;
       width: 100% !important;
     }
     #preloader {
-      background: #fff url("./img/ntvgResponsive2.webp") no-repeat bottom center;
+      background: #fff url("./img/720x1280.webp") no-repeat bottom center;
       background-size: cover;
       width: 100% !important;
       
     }
   }
-  @media screen and (min-width: 793px) and (max-width: 1126px){
+  /* @media screen and (min-width: 793px) and (max-width: 1126px){
     #hero {
       background: url('https://www.notevagustar.com/img/disco-luz.jpg') bottom center;
        background-size: cover;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 100% !important;
       
     }
-  }
+  } */
   
   @media (min-width: 1024px) {
     #hero {
@@ -1514,44 +1514,54 @@ h1, h2, h3, h4, h5, h6 {
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
-  #footer {
+
+  footer {
     background: #111;
-    padding: 5px 0;
+    width: 100%;
+    padding: 40px 0;
     color: #fff;
-  }
-  
-  #footer .copyright {
-    text-align: center;
-  }
-  
-  #footer .credits {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    color: #ccc;
+
   }
 
   footer a{
-    color: #A36F40;
-    text-decoration: none;
+    color: #fff;
   }
-  
+
   footer a:hover{
-    color: #b4855b;
+    color: #bbb7b7;
+    text-decoration: underline;
   }
 
-
-  .footer-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
+  footer a:active{
+    color: #fff;
+    text-decoration: underline;
+  }
+  footer a:focus{
+    color: #fff;
+    text-decoration: underline;
   }
 
-  #footer p{
-    margin: 0 0 15px 0;
+  .alineacion-afip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  @media screen and (min-width: 992px) {
+    .alineacion-afip{
+      flex-direction: row;
+      justify-content: center;
+      align-items: normal;
+    }
+    .container-hr{
+      display: none;
+    }
+    .bright{
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  
 
     @media screen and (min-width: 768px) and (max-width: 1200px) {
       h6 {
