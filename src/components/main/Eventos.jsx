@@ -32,25 +32,25 @@ const Eventos = (props) => {
           </div> */}
           <div className="row">
             <Evento
-              title="YSY A - COMODORO RIVADAVIA"
+              title="COMODORO RIVADAVIA"
               date="JUE 16 MAR 2023"
               image="https://www.tuentrada.com/images/63efaf054c585.webp"
               buy="https://www.tuentrada.com/eventos/detalle/YSY-A/653292305251"
             />
             <Evento
-              title="YSY A - SANTA FE"
+              title="SANTA FE"
               date="SAB 01 ABR 2023"
               image="https://www.tuentrada.com/images/640a0c3608605.webp"
               buy="https://www.tuentrada.com/eventos/detalle/SantaFe/579595836120"
             />
              <Evento
-              title="YSY A - TUCUMAN"
+              title="TUCUMAN"
               date="VIE 14 ABR 2023"
               image="https://www.tuentrada.com/images/63efcd70198a8.webp"
               buy="https://www.tuentrada.com/eventos/detalle/YSY-A/581849177433"
             />
             <Evento
-              title="YSY A - SALTA"
+              title="SALTA"
               date="SAB 15 ABR 2023"
               image="https://www.tuentrada.com/images/640a0a279b002.webp"
               buy="https://www.tuentrada.com/eventos/detalle/YSYA-SALTA/583066461895"
