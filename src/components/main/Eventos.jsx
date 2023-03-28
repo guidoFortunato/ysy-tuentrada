@@ -30,19 +30,8 @@ const Eventos = (props) => {
             </div>
 
           </div> */}
-          <div className="row">
-            <Evento
-              title="COMODORO RIVADAVIA"
-              date="JUE 16 MAR 2023"
-              image="https://www.tuentrada.com/images/63efaf054c585.webp"
-              buy="https://www.tuentrada.com/eventos/detalle/YSY-A/653292305251"
-            />
-            <Evento
-              title="SANTA FE"
-              date="SAB 01 ABR 2023"
-              image="https://www.tuentrada.com/images/640a0c3608605.webp"
-              buy="https://www.tuentrada.com/eventos/detalle/SantaFe/579595836120"
-            />
+          <div className="row justify-content-center">
+           
              <Evento
               title="TUCUMAN"
               date="VIE 14 ABR 2023"
@@ -54,6 +43,12 @@ const Eventos = (props) => {
               date="SAB 15 ABR 2023"
               image="https://www.tuentrada.com/images/640a0a279b002.webp"
               buy="https://www.tuentrada.com/eventos/detalle/YSYA-SALTA/583066461895"
+            />
+            <Evento
+              title="SANTA FE"
+              date="DOM 30 ABR 2023"
+              image="https://www.tuentrada.com/images/6422304a54a93.webp"
+              buy="https://www.tuentrada.com/eventos/detalle/SantaFe/579595836120"
             />
           </div>
         </div>
