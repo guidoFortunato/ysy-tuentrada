@@ -4,8 +4,8 @@ import { VariablesContext } from "../../context/VariablesProvider";
 import { Evento } from "./Evento";
 
 const initialState = {
-  nombre: "",
-  apellido: "",
+  name: "",
+  lastname: "",
   email: "",
 }
 
@@ -14,6 +14,7 @@ const FormContacto = (props) => {
   const [formData, setFormData] = useState(initialState);
 
   const handleChange = (e) => {
+    console.log(e.target.name)
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -62,25 +63,31 @@ const FormContacto = (props) => {
           <div className="row justify-content-center">
             <form onSubmit={ handleSubmit  }>
               <div className="mb-3">
-                <label htmlFor="nombre" className="form-label">
-                  Nombre
+                <label htmlFor="name" className="form-label">
+                  name
                 </label>
                 <input
                   type="text"
                   className="form-control"
-                  id="nombre"
-                  placeholder="Ingresa tu nombre"
+                  id="name"
+                  name="name"
+                  placeholder="Ingresa tu name"
+                  value={formData.name}
+                  onChange={handleChange}
                 />
               </div>
               <div className="mb-3">
-                <label htmlFor="apellido" className="form-label">
-                  Apellido
+                <label htmlFor="lastname" className="form-label">
+                  lastname
                 </label>
                 <input
                   type="text"
                   className="form-control"
-                  id="apellido"
-                  placeholder="Ingresa tu apellido"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Ingresa tu lastname"
+                  value={formData.lastname}
+                  onChange={handleChange}
                 />
               </div>
               <div className="mb-3">
@@ -91,7 +98,10 @@ const FormContacto = (props) => {
                   type="email"
                   className="form-control"
                   id="email"
+                  name="email"
                   placeholder="Ingresa tu correo electrónico"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
               <button type="submit" className="btn btn-primary">
