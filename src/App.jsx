@@ -44,7 +44,7 @@ function App() {
     <>
     <VariablesProvider>
 
-      <Router basename='/gira/ysy-a'> 
+      <Router basename='/gira/ysytest'> 
       
 
         <Switch>
