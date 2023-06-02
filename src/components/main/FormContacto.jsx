@@ -20,11 +20,16 @@ const FormContacto = (props) => {
     });
   };
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    const headers = {
+      'Access-Control-Allow-Origin': '*', // Cambia '*' por el dominio permitido si es conocido
+      'Access-Control-Allow-Methods': 'POST',
+      'Access-Control-Allow-Headers': 'Content-Type',
+    };
     // Realiza una solicitud POST a la URL de Mautic
-    axios.post('https://mautic.tuentrada.com/', formData)
+    axios.post('https://mautic.tuentrada.com/', formData, { headers })
       .then((response) => {
         console.log({formData},'enviada correctamente')
       })

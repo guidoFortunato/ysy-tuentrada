@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/gira/ysy-a/static/css/main.f0b76140.chunk.css",
-    "main.js": "/gira/ysy-a/static/js/main.2de64de3.chunk.js",
-    "main.js.map": "/gira/ysy-a/static/js/main.2de64de3.chunk.js.map",
-    "runtime-main.js": "/gira/ysy-a/static/js/runtime-main.e5b2cbd9.js",
-    "runtime-main.js.map": "/gira/ysy-a/static/js/runtime-main.e5b2cbd9.js.map",
-    "static/js/2.98f6779a.chunk.js": "/gira/ysy-a/static/js/2.98f6779a.chunk.js",
-    "static/js/2.98f6779a.chunk.js.map": "/gira/ysy-a/static/js/2.98f6779a.chunk.js.map",
-    "index.html": "/gira/ysy-a/index.html",
-    "static/css/main.f0b76140.chunk.css.map": "/gira/ysy-a/static/css/main.f0b76140.chunk.css.map",
-    "static/js/2.98f6779a.chunk.js.LICENSE.txt": "/gira/ysy-a/static/js/2.98f6779a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/gira/ysy-a/static/media/720x1280.522ea5de.webp",
-    "static/media/690x460.1404f862.webp": "/gira/ysy-a/static/media/690x460.1404f862.webp",
-    "static/media/a.29648234.webp": "/gira/ysy-a/static/media/a.29648234.webp",
-    "static/media/b.24ff3a4e.webp": "/gira/ysy-a/static/media/b.24ff3a4e.webp",
-    "static/media/c.69882e22.webp": "/gira/ysy-a/static/media/c.69882e22.webp",
-    "static/media/d.3ea7d78b.webp": "/gira/ysy-a/static/media/d.3ea7d78b.webp",
-    "static/media/e.d922b958.webp": "/gira/ysy-a/static/media/e.d922b958.webp",
-    "static/media/f.2d831645.webp": "/gira/ysy-a/static/media/f.2d831645.webp",
-    "static/media/logo.d89aa992.png": "/gira/ysy-a/static/media/logo.d89aa992.png"
+    "main.css": "/gira/ysytest/static/css/main.fb1f6b34.chunk.css",
+    "main.js": "/gira/ysytest/static/js/main.b7aeb2f2.chunk.js",
+    "main.js.map": "/gira/ysytest/static/js/main.b7aeb2f2.chunk.js.map",
+    "runtime-main.js": "/gira/ysytest/static/js/runtime-main.d145e886.js",
+    "runtime-main.js.map": "/gira/ysytest/static/js/runtime-main.d145e886.js.map",
+    "static/js/2.98f6779a.chunk.js": "/gira/ysytest/static/js/2.98f6779a.chunk.js",
+    "static/js/2.98f6779a.chunk.js.map": "/gira/ysytest/static/js/2.98f6779a.chunk.js.map",
+    "index.html": "/gira/ysytest/index.html",
+    "static/css/main.fb1f6b34.chunk.css.map": "/gira/ysytest/static/css/main.fb1f6b34.chunk.css.map",
+    "static/js/2.98f6779a.chunk.js.LICENSE.txt": "/gira/ysytest/static/js/2.98f6779a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/gira/ysytest/static/media/720x1280.522ea5de.webp",
+    "static/media/690x460.1404f862.webp": "/gira/ysytest/static/media/690x460.1404f862.webp",
+    "static/media/a.29648234.webp": "/gira/ysytest/static/media/a.29648234.webp",
+    "static/media/b.24ff3a4e.webp": "/gira/ysytest/static/media/b.24ff3a4e.webp",
+    "static/media/c.69882e22.webp": "/gira/ysytest/static/media/c.69882e22.webp",
+    "static/media/d.3ea7d78b.webp": "/gira/ysytest/static/media/d.3ea7d78b.webp",
+    "static/media/e.d922b958.webp": "/gira/ysytest/static/media/e.d922b958.webp",
+    "static/media/f.2d831645.webp": "/gira/ysytest/static/media/f.2d831645.webp",
+    "static/media/logo.d89aa992.png": "/gira/ysytest/static/media/logo.d89aa992.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5b2cbd9.js",
+    "static/js/runtime-main.d145e886.js",
     "static/js/2.98f6779a.chunk.js",
-    "static/css/main.f0b76140.chunk.css",
-    "static/js/main.2de64de3.chunk.js"
+    "static/css/main.fb1f6b34.chunk.css",
+    "static/js/main.b7aeb2f2.chunk.js"
   ]
 }
