@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gira/ysytest/static/css/main.fb1f6b34.chunk.css",
-    "main.js": "/gira/ysytest/static/js/main.b7aeb2f2.chunk.js",
-    "main.js.map": "/gira/ysytest/static/js/main.b7aeb2f2.chunk.js.map",
+    "main.js": "/gira/ysytest/static/js/main.6dc4f1d6.chunk.js",
+    "main.js.map": "/gira/ysytest/static/js/main.6dc4f1d6.chunk.js.map",
     "runtime-main.js": "/gira/ysytest/static/js/runtime-main.d145e886.js",
     "runtime-main.js.map": "/gira/ysytest/static/js/runtime-main.d145e886.js.map",
     "static/js/2.98f6779a.chunk.js": "/gira/ysytest/static/js/2.98f6779a.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.d145e886.js",
     "static/js/2.98f6779a.chunk.js",
     "static/css/main.fb1f6b34.chunk.css",
-    "static/js/main.b7aeb2f2.chunk.js"
+    "static/js/main.6dc4f1d6.chunk.js"
   ]
 }
