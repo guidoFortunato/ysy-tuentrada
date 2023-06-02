@@ -15,6 +15,7 @@ import Navbar from './components/Navbar/Navbar';
 import Eventos from './components/main/Eventos';
 // import DetalleEvento from './components/EventDetail/DetalleEvento';
 import VariablesProvider from './context/VariablesProvider';
+import FormContacto from './components/main/FormContacto';
 // import TagManager from 'react-gtm-module';
 //import Error404 from './components/auth/Error404';
 
@@ -49,9 +50,10 @@ function App() {
         <Switch>
           <Route path='/' exact>
             <Navbar/>
-            <Section />         
-            <Eventos />
-            <SectionHistoria />
+            <Section />     
+            <FormContacto />    
+            {/* <Eventos /> */}
+            {/* <SectionHistoria /> */}
             <Imagenes />
             {/* <Contacto /> */}
             {/* <BotonFlotante/> */}

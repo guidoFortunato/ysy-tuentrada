@@ -14,11 +14,11 @@ const Section = () => {
 
             <h1>{variables.tituloInicio}</h1>
 
-            <div className="actions" align="center">
+            {/* <div className="actions" align="center">
               <a href="#team" className="btn-get-started">
                 {variables.botonInicio}
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
