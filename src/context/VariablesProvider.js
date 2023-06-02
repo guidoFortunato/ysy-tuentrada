@@ -41,7 +41,7 @@ const VariablesProvider = (props) => {
     portfolioImg6: portfolio6,
     elementoNavbar1: "Shows",
     elementoNavbar2: "Descripción",
-    elementoNavbar3: "Imagenes",
+    elementoNavbar3: "Galería",
     elementoNavbar4: "Ubicacion",
     elementoNavbar5: "Contacto",
     tituloInicio: "",
